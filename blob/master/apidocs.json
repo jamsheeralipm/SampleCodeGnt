@@ -8,7 +8,21 @@
         "/api/rocketMargin/inventory.json": {
             "get": {
                 "summary": "get All Inventory",
-                "description": "get All Inventory"
+                "description": "get All Inventory",
+                "responses": {
+                    "200": {
+                        "description": "Success",
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    "204": {
+                        "description": "Failure",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                }
             },
             "post": {},
             "parameters": [

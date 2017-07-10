@@ -33,7 +33,6 @@
                     }
                 }
             },
-            "post": {},
             "parameters": [
                 {
                     "name": "limit",
@@ -51,10 +50,9 @@
         }
     ],
     "definitions": {
-        "Inventory": {
+        "getAllInvenory": {
             "properties": {
-                "rocketmargin": {
-                    "description": "genuine API",
+                "result": {
                     "type": "string"
                 }
             }

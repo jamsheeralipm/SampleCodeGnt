@@ -57,5 +57,13 @@
                 }
             }
         }
+    },
+    "securityDefinitions": {
+        "HTTPS": {
+            "type": "apiKey",
+            "description": "SECURE",
+            "name": "wheel",
+            "in": "header"
+        }
     }
 }

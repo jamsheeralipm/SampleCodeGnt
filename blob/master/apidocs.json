@@ -3,5 +3,22 @@
     "info": {
         "title": "rocketmargin",
         "description": "manage inventor and product api servies"
+    },
+    "paths": {
+        "/api/rocketMargin/inventory.json": {
+            "get": {
+                "summary": "get All Inventory",
+                "description": "get All Inventory"
+            },
+            "post": {},
+            "parameters": [
+                {
+                    "name": "limit",
+                    "in": "query",
+                    "description": "number of pages for shown",
+                    "type": "string"
+                }
+            ]
+        }
     }
 }
